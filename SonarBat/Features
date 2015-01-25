@@ -1,0 +1,113 @@
+This version of Sonarbat RC is the second one.
+
+---------------------------------------------------
+
+Features:
+
+It features a brand new keyboard class that allows the user to switch states.
+
+It features the ability to tell the player which Gamestate they are now at.
+
+MenuState makes it first appearance as a playable state in this Release Candidate.
+
+Inventory successfully gets switched to when the user presses the start button from the StarterStage.
+
+StarterStage is initially called from the MenuState when the player selects it.
+
+PasswordState changes directly to the StarterStage when the a button is pressed.
+
+The a button sends the user back to the StarterStage from the Inventory.
+
+Up and down keys change the option that is currently selected in the MenuState.
+
+The very first time the a button, up, down and start keys are actually used in GameStates.
+
+The Keyboard class is created once for each GameState.
+
+The very first time two states(current and past states) are used at the same time.
+
+It features the ability to be able to change between GameStates.
+
+It features the ability to be able to switch between two GameStates.
+
+Keyboard does not suffer from rapid button pressing of start and a back and forth.
+
+---------------------------------------------------
+
+Terminology for RC 2:
+
+Active state is a state that is actively being executed by the GameStateManager.
+
+Passive state is a state that is not being run by the GameStateManager.
+
+---------------------------------------------------
+
+RC 1 Features:
+
+It features the ability to load in a single level on to the screen.
+
+It has the ability to utilize a single state or dual state.
+
+It knows which tiles to use and where.
+
+It also has the ability to read in GrayScale, Colour or a Void sprites.
+
+It has an animation class that knows the difference between a static and dynamic animations.
+
+The game loop knows to shutdown if it starts to overheat.
+
+It has three different states available: Inventory, Menu and StarterStage.
+
+It has three different levels available: Starter1, Starter2, Starter3.
+
+It has a res folder where all assets for the game will go into.
+
+The stages packages holds all the levels for the game.
+
+The tiles package holds all the tiles for the game.
+
+---------------------------------------------------
+
+RC 2 Downsides:
+
+There is no way for the user to tell which state the user is currently in.
+
+There is currently no screen for any other states other than the StarterStage.
+
+The keyboard initialize features for dualStates doesn't work as expected.
+
+---------------------------------------------------
+
+RC 1 Downsides:
+
+It has no keyboard so switching states is impossible. (Resolved in RC 2)
+
+There is no player on the screen yet.
+
+No controls have been implemented. (Resolved in RC 2 with addition of keyboard)
+
+The frameRate is very low in the 600 or less range.
+
+---------------------------------------------------
+
+Planned next features for RC 3:
+
+Create a working graphic screen for passwordState.
+
+Create a working graphic screen for inventory.
+
+Create a working graphic screen for menuState.
+
+---------------------------------------------------
+
+Planned Features for RC 2:
+
+Have a working inventory on the screen.
+
+Being able to switch gameStates. (Accomplished in RC 2)
+
+Have a working keyboard. (Accomplished in RC 2)
+
+Have a working menu.
+
+Improve the framerate if possible to 1000.
