@@ -1,0 +1,53 @@
+This version of Sonarbat RC is the very first one.
+
+---------------------------------------------------
+
+Features:
+
+It features the ability to load in a single level on to the screen.
+
+It has the ability to utilize a single state or dual state.
+
+It knows which tiles to use and where.
+
+It also has the ability to read in GrayScale, Colour or a Void sprites.
+
+It has an animation class that knows the difference between a static and dynamic animations.
+
+The game loop knows to shutdown if it starts to overheat.
+
+It has three different states available: Inventory, Menu and StarterStage.
+
+It has three different levels available: Starter1, Starter2, Starter3.
+
+It has a res folder where all assets for the game will go into.
+
+The stages packages holds all the levels for the game.
+
+The tiles package holds all the tiles for the game.
+
+---------------------------------------------------
+
+Downsides:
+
+It has no keyboard so switching states is impossible.
+
+There is no player on the screen yet.
+
+No controls have been implemented.
+
+The frameRate is very low in the 600 or less range.
+
+---------------------------------------------------
+
+Planned next Features for RC 2:
+
+Have a working inventory on the screen.
+
+Being able to switch gameStates.
+
+Have a working keyboard.
+
+Have a working menu.
+
+Improve the framerate if possible to 1000.
