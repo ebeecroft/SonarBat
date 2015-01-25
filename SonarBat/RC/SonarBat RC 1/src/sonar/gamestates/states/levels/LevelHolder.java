@@ -1,8 +1,0 @@
-package sonar.gamestates.states.levels;
-
-class LevelHolder
-{
-	static final int starterStage1 = 0;
-	static final int starterStage2 = 1;
-	static final int starterStage3 = 2;
-}
