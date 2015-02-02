@@ -1,8 +1,32 @@
-This version of Sonarbat RC is the second one.
+This version of Sonarbat RC is the third one.
 
 ---------------------------------------------------
 
 Features:
+
+Other gamestates are now visible on the screen.
+
+Menu state shows up as a red color when it is selected.
+
+Inventory state shows up as a blue color when it is selected.
+
+Password state shows up as a green color when it is selected.
+
+Screen class is called from the GSM without affecting the starter stage.
+
+Tile and Sprite Managers now exist in the GameState class.
+
+An identity is used to tell the difference between different gamestates.
+
+Pixels are now defined in the GameState class.
+
+VoidSprite is defined a certain colour based on its state.
+
+VoidTile is defined a sprite regardless of what state it is in.
+
+---------------------------------------------------
+
+RC 2 Features:
 
 It features a brand new keyboard class that allows the user to switch states.
 
@@ -68,13 +92,23 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 3 Downsides:
+
+We only have colours that differentiate the states.
+
+We don't have a working player yet.
+
+Controls in the states only use one control.
+
+---------------------------------------------------
+
 RC 2 Downsides:
 
-There is no way for the user to tell which state the user is currently in.
+There is no way for the user to tell which state the user is currently in. (Resolved in RC 3)
 
-There is currently no screen for any other states other than the StarterStage.
+There is currently no screen for any other states other than the StarterStage. (Resolved in RC 3)
 
-The keyboard initialize features for dualStates doesn't work as expected.
+The keyboard initialize features for dualStates doesn't work as expected. (Resolved in RC 3)
 
 ---------------------------------------------------
 
@@ -90,13 +124,23 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 4:
+
+Inventory should have some box to identify itself.
+
+Password should have some box to identify itself.
+
+Starter should utilize the same functionality as the other Gamestates.
+
+---------------------------------------------------
+
 Planned next features for RC 3:
 
-Create a working graphic screen for passwordState.
+Create a working graphic screen for passwordState. (Accomplished in RC 3)
 
-Create a working graphic screen for inventory.
+Create a working graphic screen for inventory. (Accomplished in RC 3)
 
-Create a working graphic screen for menuState.
+Create a working graphic screen for menuState. (Accomplished in RC 3)
 
 ---------------------------------------------------
 
