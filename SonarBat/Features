@@ -1,8 +1,44 @@
-This version of Sonarbat RC is the third one.
+This version of Sonarbat RC is the fourth one.
 
 ---------------------------------------------------
 
 Features:
+
+Inventory state now displays a screen that can now hold weapons and items.
+
+Password state now displays a screen that can now contain a password.
+
+GameStates now build only the tiles necessary for each individual state.
+
+Screen class is now defined directly in the gamestate package where it belongs.
+
+StarterStage functions as normal with changes to Password and Inventory states.
+
+SpriteManager class now has sprites built based upon the given state.
+
+TileManage calss now has tiles built based upon the given state.
+
+Fixed a flaw in the Screen class with the bounds function.
+
+Fixed a flaw in the GameState class that dealt with bounds.
+
+Returned a voidTile if we are outofBounds in the GameState class.
+
+Changed the Inventory.png file so that the screen can be built correctly.
+
+Changed the Password.png file so that the screen can be built correctly.
+
+Changed the InventorySheet.png file so that the individual sprites make sense.
+
+Changed the SpriteSize class because an error was allowing sprites to overide each other.
+
+Pixels now only exist in the SpriteBuilder class instead of SpriteSize.
+
+New Corner, Line, and Square TileBuilders were added to the TileManager.
+
+---------------------------------------------------
+
+RC 3 Features:
 
 Other gamestates are now visible on the screen.
 
@@ -92,13 +128,23 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 4 Downsides:
+
+We don't have the basis of a mob defined.
+
+We don't have any weapons in the Inventory state.
+
+We don't have any energy in the Inventory state.
+
+---------------------------------------------------
+
 RC 3 Downsides:
 
-We only have colours that differentiate the states.
+We only have colours that differentiate the states. (Resolved in RC 4)
 
 We don't have a working player yet.
 
-Controls in the states only use one control.
+Controls in most states only use one button for control.
 
 ---------------------------------------------------
 
@@ -124,13 +170,23 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 5:
+
+Create a Mob template.
+
+Create a Mob manager.
+
+Create a render function for mobs.
+
+---------------------------------------------------
+
 Planned next features for RC 4:
 
-Inventory should have some box to identify itself.
+Inventory should have some box to identify itself. (Accomplished in RC 4)
 
-Password should have some box to identify itself.
+Password should have some box to identify itself. (Accomplished in RC 4)
 
-Starter should utilize the same functionality as the other Gamestates.
+Starter should utilize the same functionality as the other Gamestates. (Accomplished in RC 4)
 
 ---------------------------------------------------
 
@@ -146,7 +202,7 @@ Create a working graphic screen for menuState. (Accomplished in RC 3)
 
 Planned Features for RC 2:
 
-Have a working inventory on the screen.
+Have a working inventory on the screen. (Accomplished in RC 4)
 
 Being able to switch gameStates. (Accomplished in RC 2)
 
