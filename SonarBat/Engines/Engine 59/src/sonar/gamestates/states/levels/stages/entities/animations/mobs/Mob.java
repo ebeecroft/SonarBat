@@ -1,0 +1,37 @@
+package sonar.gamestates.states.levels.stages.entities.animations.mobs;
+
+import sonar.gamestates.Screen;
+import sonar.gamestates.states.levels.stages.entities.Entity;
+import sonar.gamestates.states.levels.stages.entities.Sprite;
+import sonar.gamestates.states.levels.stages.entities.animations.DynamicAnimation;
+
+public class Mob extends Entity
+{
+	private MobBuilder buildMob;
+	private DynamicAnimation curAnim;
+	Mob(MobBuilder buildMob)
+	{
+		super("Mob");
+		this.buildMob = buildMob;
+	}
+	
+	void update()
+	{
+		
+	}
+	
+	void render(Screen screen)
+	{
+		screen.renderMob(this);
+	}
+	
+	int getX(){return buildMob.getX();}
+	int getY(){return buildMob.getY();}
+	Sprite getSprite(){return curAnim.getSprite();}
+	int getWidth(){return curAnim.getSprite().getWidth();}
+	int getHeight(){return curAnim.getSprite().getHeight();}
+	String getMobType(){return buildMob.getType();}
+	void setCurAnim(DynamicAnimation curAnim){this.curAnim = curAnim;}
+	DynamicAnimation getCurAnim(){return curAnim;}
+	MobBuilder getBuildMob(){return buildMob;}
+}
