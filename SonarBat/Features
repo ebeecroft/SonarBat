@@ -1,8 +1,34 @@
-This version of Sonarbat RC is the fourth one.
+This version of Sonarbat RC is the fifth one.
 
 ---------------------------------------------------
 
 Features:
+
+StarterStage now displays a basic mob to the screen.
+
+MobManager allows the user to create as many mobs as they want.
+
+Mob class defines all the properties necessary to build a mob.
+
+MobBuilder is the generic template for creating mobs.
+
+CharacterMobBuilder is the character template for creating mobs.
+
+Level class was changed to be able to handle the use of mobs.
+
+SpriteManager class was changed to contain a basic mob.
+
+GameStates class now has a public getSmanage method.
+
+Screen class can now recognize mobs.
+
+Added the mobs folder for storing mob sprites.
+
+Added the StarterMob.png file to the mobs folder.
+
+---------------------------------------------------
+
+RC 4 Features:
 
 Inventory state now displays a screen that can now hold weapons and items.
 
@@ -128,9 +154,19 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 5 Downsides:
+
+We don't have an actual player yet.
+
+The mob can't even move.
+
+We are only using one set of animations.
+
+---------------------------------------------------
+
 RC 4 Downsides:
 
-We don't have the basis of a mob defined.
+We don't have the basis of a mob defined. (Resolved in RC 5)
 
 We don't have any weapons in the Inventory state.
 
@@ -170,13 +206,23 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 6:
+
+Create a Weapon template.
+
+Create a Weapon manager.
+
+Create a render function for weapons.
+
+---------------------------------------------------
+
 Planned next features for RC 5:
 
-Create a Mob template.
+Create a Mob template. (Accomplished in RC 5)
 
-Create a Mob manager.
+Create a Mob manager. (Accomplished in RC 5)
 
-Create a render function for mobs.
+Create a render function for mobs. (Accomplished in RC 5)
 
 ---------------------------------------------------
 
