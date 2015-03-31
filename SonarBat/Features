@@ -1,8 +1,41 @@
-This version of Sonarbat RC is the fifth one.
+This version of Sonarbat RC is the sixth one.
 
 ---------------------------------------------------
 
 Features:
+
+Inventory now displays a list of weapons on the screen.
+
+Weapon class defines all the properties necessary to build a weapon.
+
+WeaponBuilder is the generic template for creating weapons.
+
+WeaponManager allows the user to create as many different weapons as they want.
+
+SonarWaveBuilder is the template to create Sonar's main weapon.
+
+FireBuilder is the template to create the fire weapon.
+
+GrassBuilder is the template to create the grass weapon.
+
+WaterBuilder is the template to create the water weapon.
+
+ZapDashBuilder is the template to create the zapdash weapon.
+
+GameState class had to be changed to handle the rendering of weapons from
+the inventory state.
+
+SpriteManager class was changed to contain the different weapon sprites.
+
+Screen class can now recognize weapons.
+
+Added the weapons folder for storing weapon sprites.
+
+Added the WeaponsOff.png file to the weapons folder.
+
+---------------------------------------------------
+
+RC 5 Features:
 
 StarterStage now displays a basic mob to the screen.
 
@@ -154,6 +187,16 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 6 Downsides:
+
+We can't change between the different weapons.
+
+We don't have a health field yet for the player.
+
+We don't have a life counter yet.
+
+---------------------------------------------------
+
 RC 5 Downsides:
 
 We don't have an actual player yet.
@@ -168,7 +211,7 @@ RC 4 Downsides:
 
 We don't have the basis of a mob defined. (Resolved in RC 5)
 
-We don't have any weapons in the Inventory state.
+We don't have any weapons in the Inventory state. (Resolved in RC 6)
 
 We don't have any energy in the Inventory state.
 
@@ -206,13 +249,23 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 7:
+
+Create a Energy template.
+
+Create a Energy manager.
+
+Create a render function for energies.
+
+---------------------------------------------------
+
 Planned next features for RC 6:
 
-Create a Weapon template.
+Create a Weapon template. (Accomplished in RC 6)
 
-Create a Weapon manager.
+Create a Weapon manager. (Accomplished in RC 6)
 
-Create a render function for weapons.
+Create a render function for weapons. (Accomplished in RC 6)
 
 ---------------------------------------------------
 
