@@ -1,8 +1,33 @@
-This version of Sonarbat RC is the sixth one.
+This version of Sonarbat RC is the seventh one.
 
 ---------------------------------------------------
 
 Features:
+
+Inventory now displays a list of energies on the screen.
+
+Energy class defines all the properties necessary to build energy.
+
+EnergyBuilder is the generic template for creating energies.
+
+EnergyManager allows the user to create as many different energies as they want.
+
+WeaponEnergyBuilder is the template for creating the different weapon energies.
+
+GameState class had to be changed to handle the rendering of energies from the
+inventory state.
+
+SpriteManager class now contains the different energy sprites.
+
+Screen class can now recognize energies.
+
+Added the energies folder for storing energy sprites.
+
+Added the 12EnergyOff.png file to the energies folder.
+
+---------------------------------------------------
+
+RC 6 Features:
 
 Inventory now displays a list of weapons on the screen.
 
@@ -187,6 +212,16 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 7 Downsides:
+
+We can't see the difference between which energy is active and which is not.
+
+We don't have controls for switching between energies.
+
+We don't have a visible Menu state that displays our title of the game.
+
+---------------------------------------------------
+
 RC 6 Downsides:
 
 We can't change between the different weapons.
@@ -213,7 +248,7 @@ We don't have the basis of a mob defined. (Resolved in RC 5)
 
 We don't have any weapons in the Inventory state. (Resolved in RC 6)
 
-We don't have any energy in the Inventory state.
+We don't have any energy in the Inventory state. (Resolved in RC 7)
 
 ---------------------------------------------------
 
@@ -249,13 +284,19 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 8:
+
+Create a player and have it appear on the screen.
+
+---------------------------------------------------
+
 Planned next features for RC 7:
 
-Create a Energy template.
+Create a Energy template. (Accomplished in RC 7)
 
-Create a Energy manager.
+Create a Energy manager. (Accomplished in RC 7)
 
-Create a render function for energies.
+Create a render function for energies. (Accomplished in RC 7)
 
 ---------------------------------------------------
 
