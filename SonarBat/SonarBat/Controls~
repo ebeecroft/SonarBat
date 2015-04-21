@@ -1,0 +1,42 @@
+Alpha 1.0
+
+Inputs in the game
+------------------------------------------------
+
+Menu navigation:
+Up = up arrow
+Down = down arrow
+Left = left arrow(Not implemented yet!)
+Right = right arrow(Not implemented yet!)
+
+Changes Screens:
+A = the a key(Confirms choice)
+B = the s key(Not implemented yet!)
+Start = the space key(Opens up Inventory only in StarterStage)
+
+----------------------------------------------------
+
+Title Screen(Red voidTiles)
+
+Start (Default Selected)
+Password
+
+----------------------------------------------------
+
+Password Screen(Square Screen)
+
+A button only to jump to Stage.
+
+----------------------------------------------------
+
+Starter Stage
+
+Start Button to access Inventory
+
+----------------------------------------------------
+
+Inventory
+
+A Button to return to Starter Stage
+
+----------------------------------------------------

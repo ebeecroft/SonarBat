@@ -1,0 +1,9 @@
+Alpha 1.0 resolved a bug that caused the program to crash
+          when a key was pressed beyond the valid range
+          of the array.
+
+Resolution: Set an if statement to check that left, up,
+            down, right, a, b, start and select are the
+            only keys allowed.
+
+Alpha 1.0 Unresolved bug: keys may be too sensitive.
