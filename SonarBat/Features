@@ -1,8 +1,28 @@
-This version of Sonarbat RC is the seventh one.
+This version is Sonarbat RC 8.
 
 ---------------------------------------------------
 
 Features:
+
+Created the SonarBat class as our player mob.
+
+Mob class now has all the properties neccessary for a player.
+
+SpriteManager class now contains the different player sprites.
+
+MobManager class now builds the SonarBat mob.
+
+Added the sonarbat folder to the mobs folder.
+
+Created the sonarbat folder for storing player sprites.
+
+Added the Player.png file to the sonarbat folder.
+
+Added the PlayerSide file to the sonarbat folder
+
+---------------------------------------------------
+
+RC 7 Features:
 
 Inventory now displays a list of energies on the screen.
 
@@ -212,6 +232,16 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 8 Downsides:
+
+The player can't collide with walls yet.
+
+The player can't update its animation.
+
+The player can't even move.
+
+---------------------------------------------------
+
 RC 7 Downsides:
 
 We can't see the difference between which energy is active and which is not.
@@ -234,11 +264,11 @@ We don't have a life counter yet.
 
 RC 5 Downsides:
 
-We don't have an actual player yet.
+We don't have an actual player yet. (Resolved in RC 8)
 
 The mob can't even move.
 
-We are only using one set of animations.
+We are only using one set of animations. (Resolved in RC 8)
 
 ---------------------------------------------------
 
@@ -256,7 +286,7 @@ RC 3 Downsides:
 
 We only have colours that differentiate the states. (Resolved in RC 4)
 
-We don't have a working player yet.
+We don't have a working player yet. (Resolved in RC 8)
 
 Controls in most states only use one button for control.
 
@@ -276,7 +306,7 @@ RC 1 Downsides:
 
 It has no keyboard so switching states is impossible. (Resolved in RC 2)
 
-There is no player on the screen yet.
+There is no player on the screen yet. (Resolved in RC 8)
 
 No controls have been implemented. (Resolved in RC 2 with addition of keyboard)
 
@@ -284,9 +314,19 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 9:
+
+Allow the player to move.
+
+Allow the player to collide with walls.
+
+Allow the player to run an animation.
+
+---------------------------------------------------
+
 Planned next features for RC 8:
 
-Create a player and have it appear on the screen.
+Create a player and have it appear on the screen. (Accomplished in RC 8)
 
 ---------------------------------------------------
 
