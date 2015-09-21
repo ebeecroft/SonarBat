@@ -1,7 +1,7 @@
-Alpha 1.0
+SonarBat RC 9.0
 
 Inputs in the game
-------------------------------------------------
+----------------------------------------------------
 
 Menu navigation:
 Up = up arrow
@@ -32,6 +32,8 @@ A button only to jump to Stage.
 Starter Stage
 
 Start Button to access Inventory
+Left and Right button allows the player to move left
+and right on the screen.
 
 ----------------------------------------------------
 

@@ -1,8 +1,29 @@
-This version is Sonarbat RC 8.
+This version is Sonarbat RC 9.
 
 ---------------------------------------------------
 
 Features:
+
+Added the move method to the Mob class.
+
+Added the playerControls method to the Mob class.
+
+Changed the dynamicAnimation reset method to function
+when our index is 0 to display the correct sprite.
+
+Added the input variable to allow our player to move.
+
+Set the playerInput to null in the starterStage to
+reset the players keyboard when we switch to the
+inventory state.
+
+Player can now move left and right at will.
+
+Displays animation when player moves left or right.
+
+---------------------------------------------------
+
+RC 8 Features:
 
 Created the SonarBat class as our player mob.
 
@@ -18,7 +39,7 @@ Created the sonarbat folder for storing player sprites.
 
 Added the Player.png file to the sonarbat folder.
 
-Added the PlayerSide file to the sonarbat folder
+Added the PlayerSide file to the sonarbat folder.
 
 ---------------------------------------------------
 
@@ -232,13 +253,23 @@ The tiles package holds all the tiles for the game.
 
 ---------------------------------------------------
 
+RC 9 Downsides:
+
+The player's animation for left doesn't function correctly.
+
+The player can't fire a weapon.
+
+The player doesn't even have lives.
+
+---------------------------------------------------
+
 RC 8 Downsides:
 
 The player can't collide with walls yet.
 
-The player can't update its animation.
+The player can't update its animation. (Resolved in RC 9)
 
-The player can't even move.
+The player can't even move. (Resolved in RC 9)
 
 ---------------------------------------------------
 
@@ -266,7 +297,7 @@ RC 5 Downsides:
 
 We don't have an actual player yet. (Resolved in RC 8)
 
-The mob can't even move.
+The mob can't even move. (Resolved in RC 9)
 
 We are only using one set of animations. (Resolved in RC 8)
 
@@ -314,13 +345,21 @@ The frameRate is very low in the 600 or less range.
 
 ---------------------------------------------------
 
+Planned next features for RC 10:
+
+Allow the player to collide with the left wall.
+
+Allow the player sprites to be flipped for left direction.
+
+---------------------------------------------------
+
 Planned next features for RC 9:
 
-Allow the player to move.
+Allow the player to move. (Accomplished in RC 9)
 
 Allow the player to collide with walls.
 
-Allow the player to run an animation.
+Allow the player to run an animation. (Accomplished in RC 9)
 
 ---------------------------------------------------
 
