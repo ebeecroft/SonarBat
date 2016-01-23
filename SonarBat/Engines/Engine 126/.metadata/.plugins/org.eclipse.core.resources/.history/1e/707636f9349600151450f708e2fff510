@@ -1,0 +1,23 @@
+package sonar;
+
+//Builds the actual states for the game depending on the type.
+public interface StateBuilder
+{
+	String stateType();
+}
+
+class SingleStateBuilder implements StateBuilder
+{
+	private String identity, path;
+	SingleStateBuilder(String identity, String path)
+	{
+		this.identity = identity;
+		this.path = path;
+	}
+	public String stateType(){return "Single";}
+}
+
+class DualStateBuilder implements StateBuilder
+{
+	public String stateType(){return "Dual";}
+}
